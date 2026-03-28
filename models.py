@@ -34,6 +34,8 @@ class PlacementDrive(db.Model):
     status = db.Column(db.String(20), default="Pending")
     company_id = db.Column(db.Integer, db.ForeignKey('company.id'))
 
+
+
 class Application(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     student_id = db.Column(db.Integer, db.ForeignKey('student.id'))
