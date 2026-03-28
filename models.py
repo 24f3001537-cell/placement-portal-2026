@@ -15,6 +15,7 @@ class Student(db.Model):
     email = db.Column(db.String(100), unique=True)
     password = db.Column(db.String(100))
     resume = db.Column(db.String(200))
+    
 
 class Company(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -22,6 +23,7 @@ class Company(db.Model):
     hr_contact = db.Column(db.String(100))
     website = db.Column(db.String(100))
     approval_status = db.Column(db.String(20), default="Pending")
+
 
 class PlacementDrive(db.Model):
     id = db.Column(db.Integer, primary_key=True)
