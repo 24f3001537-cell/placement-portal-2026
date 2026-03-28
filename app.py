@@ -222,10 +222,12 @@ def home():
     return render_template("home.html")
 
 
+
 @app.route("/admin/students")
 def view_students():
     students = Student.query.all()
     return render_template("admin_students.html", students=students)    
+
 
 
 if __name__ == "__main__":
