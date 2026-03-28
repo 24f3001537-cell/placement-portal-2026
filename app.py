@@ -50,6 +50,7 @@ from models import Company
 
 
 
+
 def company_register():
 
     if request.method == "POST":
