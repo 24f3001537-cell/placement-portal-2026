@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+    min-height: 100vh;
+}
+
+/* Card */
+.glass-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Center */
+.center-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+/* Button */
+.btn-custom {
+    background: #1976d2;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-custom:hover {
+    background: #1565c0;
+}
